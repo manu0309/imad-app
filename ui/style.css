@@ -1,16 +1,8 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    margin: 75px;
+    margin-top: 75px;
 }
-
-.container {
-        max-width: 800px;
-        color: #5f5f5f;
-        font-family: sans-serif;
-        margin: 100px ;
-        }
-
 
 .center {
     text-align: center;
