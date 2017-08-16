@@ -4,12 +4,12 @@ var counter = 0;
 
 button.onclick = function () {
     
-    //Make a request to the counter variable
-    //var request = new XMLHttpRequest();
+    
+    var request = new XMLHttpRequest();
     
     
     //Capture the response and store it in a variable
-/*    request.onreadystatechange = function () {
+    request.onreadystatechange = function () {
         if (request.readyState === XMLHttpRequest.DONE) {
             if (request.status === 200){
                 var counter = request.responseText;
@@ -20,11 +20,8 @@ button.onclick = function () {
     };
 
     request.open('GET','http://guptamanu530.imad.hasura-app.io//counter',true);
-    request.send(null); */
+    request.send(null); 
     
-    counter  = counter + 1;
-    var span = document.getElementById('count');
-    span.innerHTML = counter.toString();
-    
+
     
 };
