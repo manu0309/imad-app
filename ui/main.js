@@ -20,7 +20,7 @@ submit.onclick = function(){
               
               
    
-            }else (request.status === 403) {
+            }else if (request.status === 403) {
                  alert('username/password in incorrect');
                  
             }else if(request.status === 500){
